@@ -17,22 +17,20 @@ import './styles/custom.css';
 import './styles/props.css';
 import './styles/search.css';
 import './styles/responsive.css';
+import { ReactNode } from 'react';
 
 /* ---------------- METADATA ---------------- */
 
 export const metadata: Metadata = {
-  title: {
-    default: 'Suncity Projects',
-    template: '%s | Suncity Projects',
-  },
-  description: 'Suncity Projects - Real Estate Development',
-  icons: {
-    icon: '/images/favicon.png',
-  },
-  verification: {
-    google: '92vdh0UyJUxdVheuVyM6G3ZN1CqU1hPRm10asFe_a7M',
-  },
-};
+    title: 'Suncity Projects',
+    description: 'Suncity Projects - Real Estate Development',
+    icons: {
+      icon: '/images/favicon.png',
+    },
+    verification: {
+      google: '92vdh0UyJUxdVheuVyM6G3ZN1CqU1hPRm10asFe_a7M',
+    },
+  };
 
 /* ---------------- VIEWPORT ---------------- */
 
@@ -45,11 +43,7 @@ export const viewport: Viewport = {
 
 /* ---------------- ROOT LAYOUT ---------------- */
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body suppressHydrationWarning>

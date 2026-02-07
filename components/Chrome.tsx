@@ -1,15 +1,11 @@
 'use client';
 
-import React from 'react';
+import React, { ReactNode } from 'react';
 import { usePathname } from 'next/navigation';
 import Header from './Header';
 import Footer from './Footer';
 
-type Props = {
-  children: React.ReactNode;
-};
-
-export default function Chrome({ children }: Props) {
+export default function Chrome({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   if (!pathname) return <>{children}</>;
