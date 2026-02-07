@@ -8,4 +8,4 @@
 :HL["/images/icons/construction-completed.svg","image"]
 :HL["/images/icons/area.svg","image"]
 :HL["/images/project-thumbs/education-projects/suncity-school-45.webp","image"]
-0:{"buildId":"KOXS4KBdgyuHZkSPnMTTj","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"education-projects","paramType":null,"paramKey":"education-projects","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"hHepvNQRh4YlUiIGx-ymt","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"education-projects","paramType":null,"paramKey":"education-projects","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

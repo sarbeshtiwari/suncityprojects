@@ -4,4 +4,4 @@
 :HL["/_next/static/chunks/3c25a4bfc47749f0.css","style"]
 :HC["/",""]
 :HL["/images/icons/award-leaf.svg","image"]
-0:{"buildId":"KOXS4KBdgyuHZkSPnMTTj","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"awards","paramType":null,"paramKey":"awards","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"hHepvNQRh4YlUiIGx-ymt","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"awards","paramType":null,"paramKey":"awards","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

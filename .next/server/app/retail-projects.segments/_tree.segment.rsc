@@ -8,4 +8,4 @@
 :HL["/images/icons/construction-completed.svg","image"]
 :HL["/images/icons/area.svg","image"]
 :HL["/images/project-thumbs/retail-projects/triton-mall.jpg","image"]
-0:{"buildId":"KOXS4KBdgyuHZkSPnMTTj","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"retail-projects","paramType":null,"paramKey":"retail-projects","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"hHepvNQRh4YlUiIGx-ymt","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"retail-projects","paramType":null,"paramKey":"retail-projects","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

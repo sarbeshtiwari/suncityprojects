@@ -6,4 +6,4 @@
 :HL["/images/logos/logo-dainik-jagaran.jpg","image"]
 :HL["/images/logos/logo-etrealty.jpg","image"]
 :HL["/images/logos/logo-maya.jpg","image"]
-0:{"buildId":"KOXS4KBdgyuHZkSPnMTTj","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"in-the-news","paramType":null,"paramKey":"in-the-news","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"hHepvNQRh4YlUiIGx-ymt","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"in-the-news","paramType":null,"paramKey":"in-the-news","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
