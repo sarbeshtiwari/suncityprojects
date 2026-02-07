@@ -1,21 +1,20 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import React from 'react';
+import { usePathname } from 'next/navigation';
 import Header from './Header';
 import Footer from './Footer';
 
-type Props = { children: React.ReactNode };
+type Props = {
+  children: React.ReactNode;
+};
 
 export default function Chrome({ children }: Props) {
-  const [pathname, setPathname] = useState<string | null>(null);
+  const pathname = usePathname();
 
-  // Only run in browser
-  useEffect(() => {
-    setPathname(window.location.pathname);
-  }, []);
+  if (!pathname) return <>{children}</>;
 
-  if (!pathname) return null; // don't render during prerender
-
+  // Routes where Header/Footer should be hidden
   const hideChromeRoutes = [
     '/laxmi-narayan-goel',
     '/subhash-chander-aggarwal',
@@ -24,16 +23,24 @@ export default function Chrome({ children }: Props) {
     '/ankit-goel',
   ];
 
-  if (pathname.startsWith('/admin')) return <>{children}</>;
+  // Hide chrome for admin routes
+  if (pathname.startsWith('/admin')) {
+    return <>{children}</>;
+  }
 
-  const shouldHide = hideChromeRoutes.includes(pathname);
+  // Hide chrome for specific public routes
+  const shouldHideChrome = hideChromeRoutes.some(route =>
+    pathname === route || pathname.startsWith(`${route}/`)
+  );
 
-  if (shouldHide) return <>{children}</>;
+  if (shouldHideChrome) {
+    return <>{children}</>;
+  }
 
   return (
     <>
       <Header />
-      {children}
+      <main>{children}</main>
       <Footer />
     </>
   );
