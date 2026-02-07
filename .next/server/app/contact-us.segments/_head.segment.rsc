@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[97367,["/_next/static/chunks/05a1bdb68ff86655.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"ViewportBoundary"]
+3:I[97367,["/_next/static/chunks/05a1bdb68ff86655.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[27201,["/_next/static/chunks/05a1bdb68ff86655.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"IconMark"]
+0:{"buildId":"KOXS4KBdgyuHZkSPnMTTj","rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Suncity Projects"}],["$","meta","1",{"name":"description","content":"Suncity Projects - Real Estate Development"}],["$","meta","2",{"name":"google-site-verification","content":"92vdh0UyJUxdVheuVyM6G3ZN1CqU1hPRm10asFe_a7M"}],["$","link","3",{"rel":"icon","href":"/images/favicon.png"}],["$","$L5","4",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}

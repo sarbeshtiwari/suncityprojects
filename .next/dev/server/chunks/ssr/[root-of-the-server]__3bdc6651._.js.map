@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///D:/ecorp/suncityprojects/app/projects/%5Bslug%5D/page.tsx"],"sourcesContent":["import { notFound } from 'next/navigation';\r\n\r\ninterface ProjectPageProps {\r\n  params: { slug: string };\r\n}\r\n\r\nexport default function ProjectPage({ params }: ProjectPageProps) {\r\n  if (!params.slug) {\r\n    notFound();\r\n  }\r\n\r\n  return <ProjectDetailWrapper slug={params.slug} />;\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;AAAA;;;AAMe,SAAS,YAAY,EAAE,MAAM,EAAoB;IAC9D,IAAI,CAAC,OAAO,IAAI,EAAE;QAChB,IAAA,iMAAQ;IACV;IAEA,qBAAO,8OAAC;QAAqB,MAAM,OAAO,IAAI;;;;;;AAChD"}}]
+}

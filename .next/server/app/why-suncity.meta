@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/why-suncity/layout,_N_T_/why-suncity/page,_N_T_/why-suncity"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/why-suncity/__PAGE__",
+    "/why-suncity",
+    "/_index",
+    "/_head"
+  ]
+}

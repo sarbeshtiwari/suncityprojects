@@ -1,0 +1,3 @@
+{
+  "/admin/events/edit/[slug]/page": "app/admin/events/edit/[slug]/page.js"
+}

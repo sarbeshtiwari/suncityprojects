@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/grievances/layout,_N_T_/admin/grievances/page,_N_T_/admin/grievances"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/grievances/__PAGE__",
+    "/admin/grievances",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}

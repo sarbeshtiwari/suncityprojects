@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/laxmi-narayan-goel/layout,_N_T_/laxmi-narayan-goel/page,_N_T_/laxmi-narayan-goel"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/laxmi-narayan-goel/__PAGE__",
+    "/laxmi-narayan-goel",
+    "/_index",
+    "/_head"
+  ]
+}

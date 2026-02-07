@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/admin/layout,_N_T_/admin/events/layout,_N_T_/admin/events/add/layout,_N_T_/admin/events/add/page,_N_T_/admin/events/add"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/admin/events/add/__PAGE__",
+    "/admin/events/add",
+    "/admin/events",
+    "/admin",
+    "/_index",
+    "/_head"
+  ]
+}
