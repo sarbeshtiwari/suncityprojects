@@ -1,0 +1,44 @@
+'use client';
+
+import Link from "next/link";
+
+
+function ArpitGoelPage() {
+
+	return (
+		<div className="wrapper overflow-hidden">
+			<div className="teamContainer">
+				<div className="row g-0 h-100">
+					<div className="col-lg-6 team-image" data-aos="fade-down"><img src="/images/leadership/mr-arpit-goel-director-big.webp" className="object-cover" alt="Mr. Arpit Goel" /></div>
+					<div className="col-lg-6 teamTextContainer" data-aos="fade-up">
+						<div className="inner h-100">
+							<Link href="/about-us#team" className="closeBtn">Close [X]</Link>
+							<div className="scroller">
+								{/* <div className="team-title">Director</div> */}
+								<div className="heading mx-auto text-center ms-lg-0 text-lg-start">
+									<h2 className="title-xxl mb-0 text-primary">Mr. Arpit Goel</h2>
+								</div>
+								<p className="team-quote position-relative fs-4 fw-light"><i className="fa-solid fa-quote-left"></i> At Suncity, we merge innovation with comfort, creating future-ready developments that redefine lifestyles while upholding quality, integrity, and global standards.</p>
+								<div className="team-details">
+									<section>
+										<div className="team-title">Education</div>
+										<p className="fs-4 fw-light">Bachelor of Business Administration in Accounting and Finance from Boston University, class of 2006. Master of Science in Real Estate Finance from New York University, class of 2009.</p>
+									</section>
+									<section>
+										<div className="team-title">Biography</div>
+										<p>Mr. Arpit Goel brings a global perspective to Suncity Projects and Essel Energy, shaped by his academic exposure in Boston and New York University. With a vision to redefine modern living, he has introduced innovative concepts such as Walk-to-Work environments and Self-Contained Communities, seamlessly integrating commercial, residential, healthcare, education, and entertainment facilities. His leadership emphasizes the builder’s responsibility to maintain and elevate living standards across the project’s lifetime, ensuring holistic and sustainable communities.</p>
+										<p>At Suncity, Mr. Goel has been instrumental in driving the Group’s evolution toward delivering pioneering lifestyle solutions that balance work and leisure for diverse backgrounds. Through his foresight, Suncity Projects continues to set benchmarks in the real estate industry, embodying innovation, integrity, and future-ready design.</p>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+}
+
+export default ArpitGoelPage;
+
+
