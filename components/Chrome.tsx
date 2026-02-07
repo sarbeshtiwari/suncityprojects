@@ -14,9 +14,9 @@ export default function Chrome({ children }: Props) {
 	const pathname = usePathname();
 	const hideChromeRoutes = ['/laxmi-narayan-goel', '/subhash-chander-aggarwal', '/varun-aggarwal', '/arpit-goel', '/ankit-goel'];
 	
-	// if (pathname?.startsWith('/admin')) {
-	// 	return <>{children}</>;
-	// }
+	if (pathname?.startsWith('/admin')) {
+		return <>{children}</>;
+	}
 	const shouldHide = hideChromeRoutes.includes(pathname || '');
 
 	if (shouldHide) {
